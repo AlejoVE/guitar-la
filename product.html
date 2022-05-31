@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GuitarLA: Page name</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/app.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__bar">
+					<a href="/">
+						<img
+							class="header__logo"
+							src="img/logo.svg"
+							alt="Logo image"
+						/>
+					</a>
+					<nav class="navigation">
+						<a class="navigation__link" href="index.html">Home</a>
+						<a class="navigation__link" href="about.html">About us</a>
+						<a class="navigation__link" href="blog.html">Blog</a>
+						<a class="navigation__link" href="store.html">Store</a>
+					</nav>
+				</div>
+				<!--End bar-->
+			</div>
+		</header>
+		<main class="product__container">
+			<div class="product product--page">
+				<img
+					src="img/guitarra_04.jpg"
+					alt="Guitar image"
+					class="product__image"
+				/>
+				<div class="product__content">
+					<h3 class="product__name">VAI</h3>
+					<p class="product__description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+						est animi cumque necessitatibus laborum cum voluptatem
+						distinctio deleniti. lorem Lorem ipsum dolor sit amet
+						consectetur adipisicing elit. Nisi commodi
+					</p>
+					<p class="product__price">$399</p>
+					<form class="product__form">
+						<label for="quantity" class="product__label">Quantity:</label>
+						<select
+							name="quantity"
+							id="quantity"
+							class="product__quantity"
+						>
+							<option value="">--Select --</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="more">more</option>
+						</select>
+						<input
+							type="submit"
+							class="product__add-cart"
+							value="Add to cart"
+						/>
+					</form>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__grid footer__container">
+				<nav class="footer__nav">
+					<a class="footer__link" href="index.html">Home</a>
+					<a class="footer__link" href="about.html">About us</a>
+					<a class="footer__link" href="blog.html">Blog</a>
+					<a class="footer__link" href="store.html">Store</a>
+				</nav>
+				<p class="footer__text">All Rights Reserved &copy;</p>
+			</div>
+			<div class="copyright">
+				<a
+					class="copyright__link"
+					href="https://github.com/AlejoVE/guitar-la"
+					target="_blank"
+					><img src="img/icons8-github.svg" alt="github" />
+				</a>
+			</div>
+		</footer>
+	</body>
+</html>
