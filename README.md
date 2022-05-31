@@ -1,7 +1,7 @@
 # GuitarLA
 
 ## Live Demo
-## <a href="#" target="_blank" >See it here!</a>
+## <a href="https://guitar-alejove.netlify.app/" target="_blank" >See it here!</a>
 
 ## Description
 
